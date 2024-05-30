@@ -1,0 +1,69 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+main{
+    min-height: 100vh;
+    background-image: url(https://www.caffeborbone.com/dw/image/v2/BHCB_PRD/on/demandware.static/-/Library-Sites-CaffeBorboneSharedLibrary/default/dw014eba09/split_banner/caffe-espresso-quali-sono-le-sue-origini_split.jpg?sw=1090&sh=728);
+    background: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+   
+    
+}
+#contenido{
+
+    color: black;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:250px;
+   
+
+}
+#menu{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    list-style-type: none;
+    border-color: black;
+    
+    
+}
+#menu a:hover{
+    background-color: dimgray;
+    color: white;
+    border: 5px solid black;
+    border-radius: 20px;
+    background-color: black;
+    margin: 20px;
+}
+#menu a{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    background-color: dimgray;
+    color: white;
+    border-radius: 30px;
+    margin: 20px;
+}
+h1{
+    letter-spacing: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.redes{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+.redes li a{
+    padding: 10px;
+    font-size: 25px;
+}
+.redes li a i{
+    filter: invert(60%);
+}
